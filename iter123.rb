@@ -1,11 +1,5 @@
 #!/usr/bin/ruby
 
-class Hello
-  def self.hello
-    puts "Hello Git world!"
-  end
-end
-
 class Iter123
   def iter123
     yield 1
@@ -15,4 +9,6 @@ class Iter123
   end
 end
 
-Hello.hello
+Iter123.new.iter do |i|
+  puts i
+end
