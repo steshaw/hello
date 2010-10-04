@@ -1,7 +1,9 @@
 #!/usr/bin/ruby
 
-def hello_world() 
-  puts "Hello Git world!"
+class HelloWorld
+  def self.hello
+    puts "Hello Git world from Ruby!"
+  end
 end
 
-hello_world
+HelloWorld.hello
