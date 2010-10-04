@@ -2,7 +2,7 @@
 
 class Hello
   def self.hello
-    puts "Hello Git world from Ruby!"
+    puts "Hello Git world!"
   end
 end
 
